@@ -1,0 +1,8 @@
+dmcut2 is a scientific program designed to simulate chemical reactions at surfaces using Monte-Carlo (MC) methods (see, e.g., [http://babbage.sissa.it/abs/cond-mat/0303028v1]). The program also features a Metropolis walk algorithm [Metropolis JCP 1953 1087]. Short ranged interactions between adsorbates may be taken into account.
+During development, emphasis was put on coding style and code readability. Efficiency (speed) was considered during the implementation of the algorithms.
+
+MC simulations have a broad range of applications in many aspects of physical chemistry at surfaces, mostly chemical reactions and magnetism. MC simulations are a way to efficiently integrate the master equation. MC simulations are also the only way to simulate transient states of complex reactions.
+
+This program differs from the existing programs by the attention that has been ported to coding style and adherence to coding standards. Indeed, surface MC programs are typically developed by students with little or no interest in programing. Such code is also generally kept in house and cannot be peer reviewed. Adding to that, such code is unfortunately not general enough to be used in slightly different situations.
+
+dmcut2 aims at providing code that is both designed with surface MC in mind as well as adherence to coding standards. This codebase is meant to be used by students without an extensive knowledge of programming techniques so that they have a solid base to adapt to the model they are working on. Open sourcing the code is also a way to allow peer reviewing so that results from this programs can be trusted by the scientific community. 

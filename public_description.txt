@@ -1,0 +1,1 @@
+dmcut2 is a scientific program designed to simulate chemical reactions at surfaces using Metropolis and Monte-Carlo methods. Short ranged interactions between adsorbates may be taken into account. Emphasis was put on code readability and usability.

@@ -1,0 +1,2 @@
+Reaction order is 1, but should be 0.5 if no mixed phase (expt)
+Low temperature: mixed phase 2x2
